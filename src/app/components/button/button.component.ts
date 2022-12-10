@@ -13,7 +13,6 @@ export class ButtonComponent {
   @Output() btnClick = new EventEmitter();
 
   onClick() {
-    console.log("hello...you clicked the button....happy coding....", this.color)
     this.btnClick.emit()
   }
 }
